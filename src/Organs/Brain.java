@@ -43,11 +43,12 @@ public class Brain {
 		
 		// Type Char
 		char a = 'a'; // Char are enclosed in single quotes.  
-		char symbol = '\u2122'; // This is unicode for trademark symbol.  \u is escape sequence for unicode.
+		char symbol = '\u2122'; // This is unicode for trademark symbol. u is escape sequence for unicode.
 		
 		// Type Boolean (True or False)
 		boolean sleeping = false;
 		boolean awake = true;
+		// You will be using boolean very very much.  It is used to evaluate logical condition that will occur almost in every code.
 		
 		
 		System.out.print("> "); // print will not add a new line character (\n)
